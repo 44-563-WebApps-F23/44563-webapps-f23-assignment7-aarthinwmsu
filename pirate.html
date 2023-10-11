@@ -18,42 +18,113 @@
   <p><i>Click on the locations to search for treasure, beware the traps</i></p>
   <p id="locations">Number of locations checked is zero</p>
   <p id="penalty" style="color: red;">Penalty is zero.</p>
-  <div class="btn" style="background-color:darkseagreen;">Click for help</div>
+  <div class="btn" style="background-color:darkseagreen;" onclick="help()">Click for help</div>
   <p id="help" style="color: green;"><b>Help report</b></p>
 </div>
 <div class="row">
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
+  <div class="col-sm-auto" id="0"><img src="pyramid.png" width="100" height="100" onclick="check(0)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="1"><img src="pyramid.png" width="100" height="100" onclick="check(1)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="2"><img src="pyramid.png" width="100" height="100" onclick="check(2)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="3"><img src="pyramid.png" width="100" height="100" onclick="check(3)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="4"><img src="pyramid.png" width="100" height="100" onclick="check(4)" alt="pyramid"></div>
 </div>
 <div class="row">
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
+  <div class="col-sm-auto" id="5"><img src="pyramid.png" width="100" height="100" onclick="check(5)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="6"><img src="pyramid.png" width="100" height="100" onclick="check(6)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="7"><img src="pyramid.png" width="100" height="100" onclick="check(7)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="8"><img src="pyramid.png" width="100" height="100" onclick="check(8)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="9"><img src="pyramid.png" width="100" height="100" onclick="check(9)" alt="pyramid"></div>
 </div>
 <div class="row">
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
+  <div class="col-sm-auto" id="10"><img src="pyramid.png" width="100" height="100" onclick="check(10)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="11"><img src="pyramid.png" width="100" height="100" onclick="check(11)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="12"><img src="pyramid.png" width="100" height="100" onclick="check(12)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="13"><img src="pyramid.png" width="100" height="100" onclick="check(13)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="14"><img src="pyramid.png" width="100" height="100" onclick="check(14)" alt="pyramid"></div>
 <div class="row">
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
+  <div class="col-sm-auto" id="15"><img src="pyramid.png" width="100" height="100" onclick="check(15)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="16"><img src="pyramid.png" width="100" height="100" onclick="check(16)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="17"><img src="pyramid.png" width="100" height="100" onclick="check(17)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="18"><img src="pyramid.png" width="100" height="100" onclick="check(18)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="19"><img src="pyramid.png" width="100" height="100" onclick="check(19)" alt="pyramid"></div>
 </div>
 <div class="row">
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
-  <div class="col-sm-auto"><img src="pyramid.png" width="100" height="100" alt="pyramid"></div>
+  <div class="col-sm-auto" id="20"><img src="pyramid.png" width="100" height="100" onclick="check(20)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="21"><img src="pyramid.png" width="100" height="100" onclick="check(21)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="22"><img src="pyramid.png" width="100" height="100" onclick="check(22)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="23"><img src="pyramid.png" width="100" height="100" onclick="check(23)" alt="pyramid"></div>
+  <div class="col-sm-auto" id="24"><img src="pyramid.png" width="100" height="100" onclick="check(24)" alt="pyramid"></div>
 </div>
 </body>
+<script>
+  checkCount = 0;
+  penalty = 0;
+  lastCheck = 0;
+  treasureLocation = 5;
+  trapLocation = 18;
+  gameOver = false;
+
+  idcheck=[];
+  count=0;
+  for(let i=0;i<5;i++){
+    for(let j=0;j<5;j++){
+      idcheck.push(count);
+      count+=1;
+    }
+  }
+  console.log(idcheck,"imageclicked");
+  function check(x){
+    id = idcheck[x];
+    image = document.getElementById(id);
+    if (gameOver){
+      return;
+    }
+    if (x==treasureLocation){
+        image.src="treasure.jpg";
+        gameOver = true;
+        penalty-=3;
+    }
+    else if(x==trapLocation){
+        image.src="maze.jpg";
+        gameOver=true;
+        penalty+=4;
+    }else{
+      image.src="pirate.jpg";
+    }
+    checkCount  +=  1;
+    penalty +=  1;
+    location_txt = document.getElementById("locations");
+    location_txt.innerHTML = `Number of locations checked is ${checkCount}`
+    penalty_txt = document.getElementById("penalty");
+    penalty_txt.innerHTML = `Penalty is ${penalty}`
+    lastCheck = x;
+  }
+  function help(){
+    let col = lastCheck % 5
+    let row = Math.floor(lastCheck / 5)
+
+    let treasureCol = treasureLocation % 5
+    let treasureRow = Math.floor(treasureLocation / 5)
+
+    let col_diff = Math.abs(col - treasureCol)
+    let row_diff = Math.abs(row - treasureRow)
+
+    let report = ""
+
+    if (((col_diff <= 1) && (row_diff == 0)) || ((col_diff == 0) && (row_diff <= 1))) {
+            report = "Can smell it"
+    }
+    else if (col_diff + row_diff == 2) {
+            report = "Close Matie"
+    }
+    else {
+            report = "Step Faster"
+    }
+      penalty = penalty + 2
+      penalty_text = document.getElementById("penalty")
+      penalty_text.innerHTML = `Penalty is ${penalty}`
+      help_text = document.getElementById("help")
+      help_text.innerHTML = `Help report - ${report}`            
+  }
+</script>
 </html>
