@@ -64,15 +64,15 @@
   trapLocation = 18;
   gameOver = false;
 
-  idcheck=[];
+  ids=[];
   count=0;
   for(let i=0;i<25;i++){
-      idcheck.push(count);
+      ids.push(count);
       count+=1;
   }
-  console.log(idcheck,"imageclicked");
+  console.log(ids,"imageclicked");
   function check(x){
-    image = document.getElementById(idcheck[x]);
+    image = document.getElementById(ids[x]);
     console.log(image)
     if (gameOver){
       return;
