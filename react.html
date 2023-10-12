@@ -32,8 +32,7 @@
     reactTime = undefined;
     endTime = Date.now();
     let randomCountDown = Math.round(Math.random() * (10 - 2) + 2)
-    let i;
-    for(i=0;i<randomCountDown;i++)
+    for(let i=0;i<randomCountDown;i++)
     {
         setTimeout( function () {
             document.getElementById('counter').innerHTML = `Count: ${i}`
